@@ -19,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getApplicationContext(),AddStudentActivity.class);
+                Intent i=new Intent(getApplicationContext(),SearchStudentActivity.class);
                 startActivity(i);
             }
         });
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getApplicationContext(),SearchStudentActivity.class);
+                Intent i=new Intent(getApplicationContext(),AddStudentActivity.class);
                 startActivity(i);
 
             }
